@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: RoxboroughCF;
+    src: url(fonts/Roxborough\ CF.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter.ttf) format(truetype);
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: #c6c7c3;
+}
+
+.dividido{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.esquerda{
+    left: 0;
+    margin-left: 460px;
+    background-color: #919898;
+    width: 500px;
+}
+
+.direita{
+    right: 0;
+    margin-right: 460px;
+    background-color: #FFFFFF;
+    width: 500px;
+}
+
+#foto{
+    width: 250px;
+    margin-left: 25%;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.titulo{
+    font-family: RoxboroughCF;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+div#e2 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 25px 50px 40px 25%;
+}
+
+div#e3 img{
+    width: 40px;
+    margin-left: 23%;
+}
+
+div#e3 a{
+    text-decoration: none;
+    color: black;
+}
