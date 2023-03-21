@@ -1,3 +1,3 @@
 Site-Currículo
 
-Teste de estudo usando HTML e CSS
+Teste de estudo usando HTML, CSS e Bootstrap.

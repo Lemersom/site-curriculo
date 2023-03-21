@@ -10,34 +10,18 @@
     src: url(fonts/Inter.ttf) format(truetype);
 }
 
-body{
-    width: 1200px;
-    margin: auto;
+.fundo{
     background-color: #c6c7c3;
 }
 
-.dividido{
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
 .esquerda{
-    left: 0;
-    margin-left: 460px;
+    min-width: 500px;
     background-color: #919898;
-    width: 500px;
 }
 
 .direita{
-    right: 0;
-    margin-right: 460px;
+    min-width: 500px;
     background-color: #FFFFFF;
-    width: 500px;
 }
 
 #foto{
