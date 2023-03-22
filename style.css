@@ -126,7 +126,29 @@ div#d1 hr{
     border: 3.5px solid;
     background-color: #919898;
     border-left-width: 238px;
-    margin-left: 50%;
+    margin-left: 50.5%;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+div#d2 h1, div#d3 h1{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+div#d2-extra h2{
+    font-family: ClearSans-Bold, sans-serif;
+    font-size: 18px;
+    margin-left: 10%;
     margin-top: 40px;
-    margin-bottom: 40px;
+}
+
+div#d2-extra{
+    margin-bottom: 200px;
+}
+
+.direita ul{
+    font-family: ClearSans-Normal, sans-serif;
+    margin-left: 8%;
+    font-size: 16px;
 }
