@@ -20,12 +20,21 @@
     src: url(fonts/ClearSans-Bold.ttf);
 }
 
+
+
+
 ::-webkit-scrollbar{
     display: none;
 }
 
+.row{
+    background-color: #c6c7c3;
+}
+
 .fundo{
     background-color: #c6c7c3;
+    width: auto;
+    object-fit: contain;
 }
 
 .esquerda{
