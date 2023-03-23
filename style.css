@@ -21,8 +21,6 @@
 }
 
 
-
-
 ::-webkit-scrollbar{
     display: none;
 }
@@ -33,14 +31,17 @@
 
 .fundo{
     background-color: #c6c7c3;
-    width: auto;
-    object-fit: contain;
+    max-width: 349px;
+}
+
+.escondido{
+    display: none;
 }
 
 .esquerda{
     min-width: 476px;
     background-color: #919898;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .direita{
