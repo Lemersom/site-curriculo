@@ -21,32 +21,32 @@
 }
 
 
+@media only screen and (max-width: 600px){
+    .fundo{
+        background-color: red;
+    }
+}
+
+
 ::-webkit-scrollbar{
     display: none;
 }
 
-.row{
+body{
     background-color: #c6c7c3;
-}
-
-.fundo{
-    background-color: #c6c7c3;
-    max-width: 349px;
-}
-
-.escondido{
-    display: none;
 }
 
 .esquerda{
     min-width: 476px;
     background-color: #919898;
     min-height: 100vh;
+    padding: 0px !important;
 }
 
 .direita{
     min-width: 476px;
     background-color: #FFFFFF;
+    padding: 0px !important;
 }
 
 #foto{
@@ -135,8 +135,8 @@ div#d1 h2{
 div#d1 hr{
     border: 3.5px solid;
     background-color: #919898;
-    border-left-width: 238px;
-    margin-left: 50.5%;
+    width: 50%;
+    margin-left: 50%;
     margin-top: 20px;
     margin-bottom: 45px;
 }
